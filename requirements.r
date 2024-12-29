@@ -1,0 +1,1 @@
+install.packages(c("plumber", "jsonlite", "httr"), repos='http://cran.rstudio.com/')
