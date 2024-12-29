@@ -1,2 +1,6 @@
 [build]
 builder = "nixpacks"
+
+[deploy]
+startCommand = "Rscript server.R"
+restartPolicyType = "ON_FAILURE"
